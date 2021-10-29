@@ -10,6 +10,8 @@ body{
     padding: 0;
     margin: 0;
     font-family: 'Red Hat Display', sans-serif;
+    display: flex;
+    justify-content: center;
 }
 
 .title {
@@ -227,6 +229,33 @@ object-fit: contain;
     background: #855FB1;
 }
 
+@media only screen and (max-width: 320px) {
+    .joined{
+        margin-left: -10px;
+    }
+
+}
+
+@media only screen and (min-width: 414px) {
+    .joined{
+        margin-left: 35px;
+    }
+}
+
+@media only screen and (max-width: 411px) {
+    .joined{
+        margin-right: 50px;
+    }
+}
+
+@media only screen and (min-width: 540pxpx) {
+    .joined {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
 
 @media only screen and (min-width: 768px) {
     /* For tablet phones: */
@@ -266,5 +295,30 @@ object-fit: contain;
       margin-top: 0;
   }
 
-
+  .joined{
+    margin-left: 200px;
+  }
+.all{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
+.first{
+display: flex;
+justify-content: space-around;
+}
+
+.second{
+    margin-top: 87px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.img-2{
+    margin-right: 5px;
+}
+}
+
+
+
+
